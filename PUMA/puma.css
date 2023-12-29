@@ -1,0 +1,601 @@
+*{
+    margin: 0;
+}
+
+header{
+    position:sticky;
+    top: 0;
+    z-index: 25;
+}
+nav{
+    height: 60px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    /* justify-content: space-around; */
+    align-items: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+    z-index: 26;
+}
+
+#pumaimage{
+    height: 80px;
+    width: 120px;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+#names{
+    height: 60px;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    position: relative;
+    left: 20px;
+
+
+}
+
+#a{
+    height: 60px;
+    width: 10px;
+    position: relative;
+    left: -20px;
+    top:20px ;
+
+}
+#b{
+    height: 60px;
+    width: 10px;
+    position: relative;
+    left: 20px;
+    top:20px ;
+
+}#c{
+    height: 60px;
+    width: 10px;
+    position: relative;
+    left: 80px;
+    top:20px ;
+
+}#d{
+    height: 60px;
+    width: 10px;
+    position: relative;
+    left: 120px;
+    top:20px ;
+
+}#e{
+    height: 60px;
+    width: 10px;
+    position: relative;
+    left: 160px;
+    top:20px ;
+
+}#f{
+    height: 60px;
+    width: 10px;
+    position: relative;
+    left: 280px;
+    top:20px ;
+
+}#g{
+    height: 60px;
+    width: 10px;
+    position: relative;
+    left: 370px;
+    top:20px ;
+
+}#h{
+    height: 60px;
+    width: 10px;
+    position: relative;
+    left: 480px;
+    top:20px ;
+
+}#i{
+    height: 60px;
+    width: 10px;
+    position: relative;
+    left: 530px;
+    top:20px ;
+
+}
+#j{
+    height: 15px;
+    width: 80px;
+    background-color: black;
+    color: white;
+    position: relative;
+    left: 950px;
+    top:1px ;
+    border: 1px solid white;
+    padding:10px 2px 10px 60px;
+    box-shadow:1px 1px 1px 1px black;
+    /* border: 2px solid rgb(232, 230, 230); */
+
+}
+.fa-solid{
+
+    height: 60px;
+    width: 10px;
+    position: relative;
+    left: 980px;
+    top:33px ;
+    z-index: 2;
+
+
+}
+
+.fa-regular{
+
+    height: 60px;
+    width: 10px;
+    position: relative;
+    left: 1000px;
+    top:30px ;
+
+}
+
+.fa-cart-shopping{
+    height: 60px;
+    width: 10px;
+    position: relative;
+    left: 1038px;
+    top:30px ;
+
+
+}
+
+.fa-user{
+
+    height: 60px;
+    width: 10px;
+    position: relative;
+    left: 1080px;
+    top:30px ;
+
+}
+
+#main{
+    height:100vh;
+    width: 100vw;
+    background-image: url(pumaimages/puma1.2);
+    
+    background-repeat: no-repeat;
+    background-size: 100vw 80vh;
+
+}
+
+#content{
+    position: relative;
+    top: 270px;
+    left: 40px;
+    color: white;
+    font-size: larger;
+    line-height: 45px;
+
+}
+
+#shop{
+    height: 40px;
+    width: 100px;
+    background-color: white;
+    color: black;
+    position: relative;
+    left: 60px; 
+    box-shadow: 2px 2px 2px black;
+    padding:4px 5px 4px 20px;
+
+    
+}
+
+#main1{
+    height:100vh;
+    width: 100vw;
+    background-image: url(pumaimages/puma2.jpg);
+    
+    background-repeat: no-repeat;
+    background-size: 100vw 80vh;
+   margin-top: 0%;
+   position: absolute;
+   top: 88%;
+}
+#info{
+    height: 12vh;
+    width: 100vw;
+    background-color: aqua;
+    background-size: 50vw 200px;
+    position: relative;
+    top: 500px;
+    /* display: flex; */
+    /* justify-content: center;
+    align-items: center; */
+    font-size: small;
+    line-height: 25px;
+
+
+}
+
+#a1{
+    position: relative;
+    left: 640px;
+    top: 10px;
+}
+
+#a2{
+    position: relative;
+    left: 665px;
+    top: 10px;
+}
+
+#a3{
+    position: relative;
+    left: 690px;
+    top: 10px;
+}
+#video{
+    height: 4vh; 
+     width :100vw;
+    position: relative;
+    top: 520px;
+
+}
+body{
+    overflow-x: hidden;
+}
+
+#main23{
+    height:100vh;
+    width: 100vw;
+    background-image: url(pumaimages/viratpuma.jpg);
+    
+    background-repeat: no-repeat;
+    background-size: 100vw 80vh;
+    position: relative;
+    top: 1400px;
+    
+
+}
+
+#content23{
+    position: relative;
+    top: 220px;
+    left: 450px;
+    color: white;
+    font-size: larger;
+    line-height: 40px;
+
+}
+
+#shop1{
+    height: 40px;
+    width: 100px;
+    background-color: white;
+    color: black;
+    position: relative;
+    top: 18px;
+    left: 260px; 
+    box-shadow: 2px 2px 2px black;
+    padding:4px 5px 4px 20px;
+    
+}
+#b1{
+    position: relative;
+    left: 130px;
+    top: 10px;
+}
+
+
+#main24{
+    height:100vh;
+    width: 100vw;
+    background-image: url(pumaimages/blkpuma.jpg);
+    
+    background-repeat: no-repeat;
+    background-size: 100vw 80vh;
+    position: relative;
+    top: 1250px;
+    
+
+}
+
+#content24{
+    position: relative;
+    top: 220px;
+    left: 450px;
+    color: black;
+    font-size: larger;
+    line-height: 40px;
+
+}
+
+#shop2{
+    height: 40px;
+    width: 100px;
+    background-color: white;
+    color: black;
+    position: relative;
+    top: 18px;
+    left: 210px; 
+    box-shadow: 2px 2px 2px black;
+    padding:4px 5px 4px 20px;
+    
+}
+#b2{
+    position: relative;
+    left: 120px;
+    top: 10px;
+}
+
+
+#main25{
+    height:100vh;
+    width: 100vw;
+    background-image: url(pumaimages/karrenapuma.jpg);
+    
+    background-repeat: no-repeat;
+    background-size: 100vw 80vh;
+    position: relative;
+    top: 1100px;
+    
+
+}
+
+#content25{
+    position: relative;
+    top: 220px;
+    left: 450px;
+    color: white;
+    font-size: larger;
+    line-height: 40px;
+
+}
+
+#shop3{
+    height: 40px;
+    width: 100px;
+    background-color: white;
+    color: black;
+    position: relative;
+    top: 18px;
+    left: 220px; 
+    box-shadow: 2px 2px 2px black;
+    padding:4px 5px 4px 20px;
+    
+}
+#b3{
+    position: relative;
+    left: 130px;
+    top: 10px;
+}
+#c1{
+    position: relative;
+    left: 160px;
+    top: 10px;
+}
+#c2{
+    position: relative;
+    left: 130px;
+    top: 10px;
+}
+
+#main26{
+    height:100vh;
+    width: 100vw;
+    background-image: url(pumaimages/shoespic.jpg);
+    
+    background-repeat: no-repeat;
+    background-size: 100vw 80vh;
+    position: relative;
+    top: 950px;
+    
+
+}
+
+#content26{
+    position: relative;
+    top: 240px;
+    left: 20px;
+    color: white;
+    font-size: larger;
+    line-height: 40px;
+
+}
+
+#shop4{
+    height: 40px;
+    width: 100px;
+    background-color: white;
+    color: black;
+    position: relative;
+    left: 170px; 
+    top: 15px;
+    box-shadow: 2px 2px 2px black;
+    padding:4px 5px 4px 20px;
+
+    
+}
+
+#c3{
+    position: relative;
+    left: 70px;
+    top: 10px;
+}
+
+#b4{
+    position: relative;
+    left: 10px;
+    top: 10px;
+}
+
+#main27{
+    height:100vh;
+    width: 100vw;
+    background-image: url(pumaimages/shoespuma1pic.jpg);
+    
+    background-repeat: no-repeat;
+    background-size: 100vw 80vh;
+    position: relative;
+    top: 800px;
+    
+    
+
+}
+
+#content27{
+    position: relative;
+    top: 240px;
+    left: 1040px;
+    color: black;
+    font-size: larger;
+    line-height: 40px;
+
+
+}
+
+#shop5{
+    height: 40px;
+    width: 100px;
+    background-color: white;
+    color: black;
+    position: relative;
+    left: 170px; 
+    top: 15px;
+    box-shadow: 2px 2px 2px black;
+    padding:4px 5px 4px 20px;
+
+    
+}
+
+#c4{
+    position: relative;
+    left: 70px;
+    top: 10px;
+}
+
+#b5{
+    position: relative;
+    left: 10px;
+    top: 10px;
+}
+
+.foot{
+    height: 500px;
+    width: 100vw;
+    background-color:#353839;
+    color: white;
+    position: relative;
+    top:680px ;
+
+}
+
+#container{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    position: relative;
+    top: 50px;
+    width: 100vw;
+    left: 100px;
+    right: 100px;
+    line-height: 30px;
+}
+
+#last{
+    display: flex;
+    /* justify-content: space-between; */
+    width: 30vw;
+    line-height: 50px;
+
+
+}
+#p{
+    position: relative;
+    left: 0px;
+}
+
+#q{
+    position: relative;
+    left: 40px;
+}
+
+#r{
+    position: relative;
+    left: 83px;
+}
+
+#s{
+    position: relative;
+    left: 124px;
+}
+#border{
+    border-top: 2px groove white;
+}
+#indi{
+    display: flex;
+    /* justify-content: space-around; */
+    list-style: none;
+
+}
+#p1{
+    height:40px;
+    width: 65px;
+    background-image: url(pumaimages/visapuma.jpeg);
+    background-size: 60px 50px;
+    position: relative;
+    top: 50px;
+    left: 60px;
+    
+
+}
+#p2{
+    height:40px;
+    width: 65px;
+    background-image: url(pumaimages/visa3-removebg-preview.png);
+    background-size: 60px 50px;
+    position: relative;
+    left:80px;    top: 50px;
+    
+
+}
+#p3{
+    height:40px;
+    width: 65px;
+    background-image: url(pumaimages/visa2-removebg-preview.png);
+    background-size: 60px 50px;
+    position: relative;
+    top: 50px;
+    left: 100px;
+    
+
+}
+
+#box{
+    height: 40px;
+    width: 75px;
+    background-color:#353839 ;
+    color: white;
+    position: relative;
+    left: 490px;
+    top: 50px;
+    box-shadow: 1px 1px 1px 1px blanchedalmond;
+    background-image: url(pumaimages/india-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-size: 40px 30px;
+    background-position-y: center;
+    background-position-x: 10px;
+    padding: 17px 10px 2px 60px;
+}
+
+#add{
+    position: relative;
+    top: 50px;
+    left: 750px;
+}
